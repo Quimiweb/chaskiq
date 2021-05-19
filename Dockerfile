@@ -1,5 +1,5 @@
 ARG RUBY_VERSION
-FROM ruby:$RUBY_VERSION-slim-buster
+FROM ruby:latest-slim-buster
 
 ARG APP_ENV
 
